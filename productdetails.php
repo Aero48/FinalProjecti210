@@ -45,7 +45,9 @@ $row = $query->fetch_assoc();
                 <p class="detail-price">
                     Price: <?php echo "$", $row['price'] ?>
                 </p>
-                     
+                <a href="addtocart.php?id=<?php echo $row['product_id'] ?>">
+                    <img src="public/images/Shopping%20Cart%20Icon.png" />
+                </a>
             </div>
         </section>
             <div class="buttons">
