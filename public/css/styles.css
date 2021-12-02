@@ -1,0 +1,286 @@
+@font-face {
+    font-family: RobotoLight;
+    src: url(Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: RobotoBoldItalic;
+    src: url(Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: RobotoItalic;
+    src: url(Roboto/Roboto-Italic.tff);
+}
+
+@font-face {
+    font-family: Shippori;
+    src: url(../css/fonts/Shippori_Antique_B1/ShipporiAntiqueB1-Regular.ttf);
+}
+
+/*
+  COLOR PALETTE
+
+  Dark Blue = #3d348b
+
+  Light Gray = #ddd5d0
+
+  Light Blue = #388697
+
+  Red = #c14953
+
+  Orange = #d16014
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+
+.fullpage {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #cdf3fd;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    background-color: #388697;
+}
+
+nav .links a {
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+nav .logo span a img {
+    font-family: RobotoBold;
+    height: 60px;
+    padding-left: 50px;
+}
+
+.banner {
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #1b1464;
+}
+
+.banner h1{
+    margin-bottom: 50px;
+}
+
+.About {
+    margin-top: 20px;
+
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
+.header {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.logo @font-face {
+    font-family: RobotoBold;
+    src: url(Roboto/Roboto-Bold.ttf);
+}
+
+.list-content{
+    min-height: 595px;
+    max-width: 1366px;
+    display: flex;
+    margin: 0 auto  ;
+    background-color: #b6c7e3;
+}
+
+.list-content tr{
+    color: #1b1464;
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
+
+.list-content td{
+    color: #1b1464;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
+
+.list-content td a{
+    text-decoration: none;
+}
+
+/* PRODUCT DETAILING STYLING */
+
+.fullpage-detail {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(86, 86, 118, 0.6),
+            rgba(86, 86, 118, 0.6)
+    ),
+    url(../images/weld.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.detail-content {
+    padding: 50px;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    background-color: #3d348b;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.nft-image {
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.nft-text {
+    height: 100%;
+    width: 50%;
+}
+
+.detail-title {
+    text-align: center;
+    color: #ddd5d0;
+    font-family: Shippori;
+    font-weight: bold;
+}
+
+.detail-desc {
+    padding-left: 15%;
+    line-height: 150%;
+    color: #ddd5d0;
+    font-size: small;
+    font-family: Shippori;
+}
+
+.detail-price {
+    padding-left: 15%;
+    line-height: 150%;
+    color: #ddd5d0;
+    font-family: Shippori;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 35px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.buttons a {
+    text-decoration: none;
+    font-family: Shippori;
+    font-size: 20px;
+    color: #ddd5d0;
+    margin-bottom: 50px;
+}
+
+
+
+footer {
+    height: 100px;
+    max-width: 1920px;
+    background-color: #388697;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+footer p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.footer-image{
+    height: 207px;
+    width: 243px;
+    background-image: url("images/computer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.footer-image-left{
+    height: 207px;
+    width: 243px;
+    background-image: url(public/images/computer-left.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img{
+    height: 200px;
+    width: 200px;
+}
+
+.newproduct a{
+    text-decoration: none;
+    font-family: Shippori;
+    font-size: 20px;
+    color: #3d348b;
+    margin-left: 45%;
+}
+
+
