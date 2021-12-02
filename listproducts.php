@@ -9,7 +9,7 @@ $sql = "SELECT * FROM products";
 //execute the query
 $query = $conn->query($sql);
 
-//Handle selection errors.
+//Handle selection errors
 if (!$query) {
     $errno = $conn->errno;
     $errmsg = $conn->error;
