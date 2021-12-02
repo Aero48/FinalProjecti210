@@ -21,9 +21,15 @@ if (!$query) {
 
 ?>
     <h1 class="banner">Products</h1>
+    <form action="searchproductresults.php" method="get">
+        <input type="text" name="terms" size="40" required />&nbsp;&nbsp;
+        <input type="submit" name="Submit" id="Submit" value="Search Product" />
+    </form>
         <div class="newproduct">
+
     <a href="newproduct.php">New Product</a>
         </div>
+
 
     <table class="list-content">
         <tr>
