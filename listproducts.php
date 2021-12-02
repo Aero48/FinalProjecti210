@@ -20,8 +20,8 @@ if (!$query) {
 }
 
 ?>
-    <h1 class="banner">Products</h1>
-    <form action="searchproductresults.php" method="get">
+    <h1 class="product-list">Products</h1>
+    <form action="searchproductresults.php" method="get" class="searchbar">
         <input type="text" name="terms" size="40" required />&nbsp;&nbsp;
         <input type="submit" name="Submit" id="Submit" value="Search Product" />
     </form>
